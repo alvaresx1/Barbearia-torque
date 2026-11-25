@@ -40,22 +40,3 @@ const CONFIG = {
 
 Basta trocar esses dados (e as fotos no `index.html`) para gerar o site de outra barbearia.
 
-## Como rodar
-
-Não precisa instalar nada: abra o `index.html` no navegador.
-
-## Publicação no GitHub Pages
-
-1. Envie os arquivos para um repositório no GitHub
-2. Vá em **Settings › Pages**
-3. Em **Source**, escolha **Deploy from a branch**, selecione `main` e a pasta `/ (root)`
-4. Salve. Em alguns minutos o site estará em `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/`
-
-## Estrutura
-
-```
-├── index.html   # estrutura da página
-├── style.css    # estilos
-├── script.js    # configuração e montagem dinâmica do conteúdo
-└── README.md
-```
